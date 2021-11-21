@@ -1,0 +1,22 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.bd-card {
+  position: relative;
+  padding: 1rem;
+  border: solid #f7f7f9;
+}
+ul.links {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  overflow: auto;
+  text-align: left;
+}
+ul.links > li {
+  padding: 2px 12px;
+}
