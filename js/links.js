@@ -707,11 +707,15 @@ const links = {
     "https://www.microsoft.com/en-in/locale?absoluteReturnUrl=https%3a%2f%2fwww.microsoft.com%2fen-in%2f%3fSilentAuth%3d1%26wa%3dwsignin1.0",
     "https://www.microsoft.com/trademarks"
   
-  ]
+  ],
 },
   error: {
     selector: 'error-links',
     urls: ['pages/redirect.html', 'pages/timeout.html', 'pages/non-existent-page.html']
+  },
+  cookie: {
+    selector: 'cookie-links',
+    urls: ['pages/cookie.html']
   }
 }
 
