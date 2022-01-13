@@ -3,7 +3,11 @@
  const cvalue = "Cookie1Value1";
   d.setTime(d.getTime() + (7 * 24 * 60 * 60 * 1000));
   let expires = "expires="+d.toUTCString();  
-  document.cookie = cname +"=" + cvalue + ";domain=expo-website.github.io;path=/;" + expires;
+  alert("setting cookie : " + cookie1);
+  const cookie1 = cname +"=" + cvalue + ";domain=expo-website.github.io;path=/;" + expires;
+  document.cookie = cookie1;
    cname = "Cookie2Name2";
    cvalue = "Cookie2Value2";
-   document.cookie = cname +"=" + cvalue + ";domain=.example.com;path=/;" + expires;
+   const cookie2 = cname +"=" + cvalue + ";domain=.example.com;path=/;" + expires;
+   alert("setting cookie : " + cookie2);
+   document.cookie = cookie2;
