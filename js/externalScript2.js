@@ -1,4 +1,11 @@
-const element= document.createElement("script");
-element.setAttribute("src","../js/externalScript.js");
-element.setAttribute("type","application/javascript");
-document.body.appendChild(element);
+(function(){document.cookie = "functional-cookie= value";
+let child = document.createElement("li");
+child.textContent = "External script 2 got executed which sets Functional cookies.";
+
+if (document.getElementById("script-info")) {
+  document.getElementById("script-info").appendChild(child);
+} else {
+  window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById("script-info").appendChild(child);
+  });
+}})();
