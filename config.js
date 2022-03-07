@@ -3,14 +3,14 @@ window.__MSFT_SDK.config = {
     "extendedTrackers": [
       {
         "type": "script",
-        "identifier": "http://127.0.0.1:8080/js/externalScript1.js",
+        "identifier": "https://expo-website.github.io/dev/js/externalScript1.js",
         "categories": [
           "Performance"
         ]
       },
       {
         "type": "script",
-        "identifier": "http://127.0.0.1:8080/js/externalScript2.js",
+        "identifier": "https://expo-website.github.io/dev/js/externalScript2.js",
         "categories": [
           "Functional"
         ]
