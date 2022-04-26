@@ -8,7 +8,7 @@ window.__MSFT_SDK = {
                   "geoLocations": ["Asia/Calcutta"]
               },
               "attributes": {
-                  "assetsPath": "https://expo-website.github.io/dev/",
+                  "assetsPath": "https://expo-website.github.io/dev",
                   "headless": false,
                   "version": 1,
                   "trackerCategories": [{
@@ -35,7 +35,7 @@ window.__MSFT_SDK = {
                   "geoLocations": ["America/Halifax"]
               },
               "attributes": {
-                  "assetsPath": "https://expo-website.github.io/dev/",
+                  "assetsPath": "https://expo-website.github.io/dev",
                   "headless": false,
                   "version": 1,
                   "trackerCategories": [{
