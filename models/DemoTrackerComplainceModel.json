@@ -1,0 +1,28 @@
+{
+  "name": "DemoTrackerComplainceModel",
+  "conditionalAttributes": {
+    "countriesOrRegions": [],
+    "geoLocations": []
+  },
+  "attributes": {
+    "version": 1,
+    "trackerCategories": [{
+      "categoryName": "StrictlyNecessary",
+      "isEssential": true,
+      "noticeName": "StrictlyNecessary"
+    },{
+      "categoryName": "Functional",
+      "isEssential": false,
+      "noticeName": "Functional"
+    }, {
+      "categoryName": "Performance",
+      "isEssential": false,
+      "noticeName": "Performance"
+    }],
+    "definition": "Explicit",
+    "expiryInSec": 86400,
+    "consentNotice": "BannerNotice",
+    "preferenceCenter": "CookieSettingsSummaryNotice",
+    "defaultLCID": "en-US"
+  }
+}

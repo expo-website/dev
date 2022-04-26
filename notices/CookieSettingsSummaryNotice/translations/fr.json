@@ -1,0 +1,9 @@
+{
+    "translations": {
+      "summary-header": "Paramètres des cookies",
+      "summary-description": "Lorsque vous visitez l’un de nos sites Web, il peut stocker ou récupérer des informations sur votre navigateur, principalement sous la forme de cookies. Ces informations peuvent vous concerner, vos préférences ou votre appareil et sont principalement utilisées pour faire fonctionner le site comme vous l’attendez. Les informations ne vous identifient généralement pas directement, mais elles peuvent vous donner une expérience Web plus personnalisée. Parce que nous respectons votre droit à la vie privée, vous pouvez choisir de ne pas autoriser certains types de cookies.",
+      "confirm-description": "Confirmer mes choix",
+      "accept-description": "Accepter tous les cookies",
+      "cancel-description": "Annuler"
+    }
+  }

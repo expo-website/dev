@@ -1,0 +1,8 @@
+{
+    "translations": {
+      "banner-header": "Votre vie privée",
+      "banner-description": "En cliquant sur « Accepter tous les cookies », vous acceptez que Stack Exchange puisse stocker des cookies sur votre appareil et divulguer des informations conformément à notre&nbsp;<a href=\"https://bing.com\">Politique de cookies.</a>",
+      "accept-description": "Accepter tous les cookies",
+      "customize-description": "Personnaliser les paramètres"
+    }
+  }

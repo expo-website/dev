@@ -1,0 +1,28 @@
+{
+    "name": "DemoTrackerComplainceModel2",
+    "conditionalAttributes": {
+      "countriesOrRegions": [],
+      "geoLocations": ["America/Halifax"]
+    },
+    "attributes": {
+      "version": 1,
+      "trackerCategories": [{
+        "categoryName": "StrictlyNecessary",
+        "isEssential": true,
+        "noticeName": "StrictlyNecessary"
+      },{
+        "categoryName": "Functional",
+        "isEssential": false,
+        "noticeName": "Functional"
+      }, {
+        "categoryName": "Performance",
+        "isEssential": false,
+        "noticeName": "Performance"
+      }],
+      "definition": "Implicit",
+      "expiryInSec": 86400,
+      "consentNotice": "BannerNotice",
+      "preferenceCenter": "CookieSettingsSummaryNotice",
+      "defaultLCID": "en-US"
+    }
+  }
