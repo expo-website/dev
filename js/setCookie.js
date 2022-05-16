@@ -1,7 +1,11 @@
 const d = new Date();
 const cname = "Cookie1Name1";
 const cvalue = "Cookie1Value1";
+const cname1 = "Cookie2Name2";
+const cvalue1 = "Cookie2Value2";
 d.setTime(d.getTime() + 7 * 24 * 60 * 60 * 1000);
 let expires = "expires=" + d.toUTCString();
 const cookie1 = cname + "=" + cvalue + ";path=/;" + expires;
+const cookie2 = cname1 + "=" + cvalue1 + ";path=/;" + expires;
 document.cookie = cookie1;
+document.cookie = cookie2;
