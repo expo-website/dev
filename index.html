@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
       (async () => {
-        const cdnResponse = await fetch("https://pkumarasamy-cdn.azureedge.net/1b153d4a-15a7-41b2-9d53-8dc3436971ad/models-mymodel/MyModel/model.json")
+        const cdnResponse = await fetch("https://pkumarasamy-cdn.azureedge.net/my-cdn/MyModel/model.json")
         const body = await cdnResponse.json();
         const country = cdnResponse.headers.get("content-language")
 
