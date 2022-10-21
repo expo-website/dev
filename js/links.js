@@ -715,7 +715,7 @@ const links = {
   },
   cookie: {
     selector: 'cookie-links',
-    urls: ['pages/cookie.html']
+    urls: ['cookie.html']
   }
 }
 

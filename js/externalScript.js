@@ -1,1 +1,0 @@
-alert("external srcipt executed");

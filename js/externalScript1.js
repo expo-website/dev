@@ -1,6 +1,6 @@
-(function(){document.cookie = "necessary-cookie= value";
+(function(){document.cookie = "performance-cookie-1= value";
 let child = document.createElement("li");
-child.textContent = "External script 3 got executed which sets Necessary cookies.";
+child.textContent = "External script 1 got executed which sets Performance cookies.";
 if (document.getElementById("script-info")) {
     document.getElementById("script-info").appendChild(child);
 } else {
@@ -8,4 +8,3 @@ if (document.getElementById("script-info")) {
         document.getElementById("script-info").appendChild(child);
     });
 }})();
-
