@@ -86,6 +86,3 @@ function reset() {
   setTimeout(write, 75);
   $("span").removeClass("glow");
 }
-
-console.log("WHAT ARE YOU LOOKING FOR???\n\n");
-console.log("SEARCH MY ORIGIN\n\n");
