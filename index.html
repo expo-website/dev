@@ -6,30 +6,13 @@
     <script src="./msft-privacy/js/consent.min.js"></script>
     <script>MSFTConsent.init({assetPath: '.', jsPath: '.'})</script>
     <!-- End Microsoft Consent Management -->
-    
-    <!-- Google Tag Manager -->
-      <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KX4SWC8');</script> -->
-    <!-- End Google Tag Manager -->
 
     <link href="css/index.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" >
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      (async () => {
-        const cdnResponse = await fetch("https://pkumarasamy-cdn.azureedge.net/my-cdn/MyModel/model.json")
-        const body = await cdnResponse.json();
-        const country = cdnResponse.headers.get("content-language")
 
-        alert(`Model Version: ${body.version}, User Location: ${country}`)
-      })()
-    </script>
     <style>
       .p-wrapper-home {
           max-width: 1950px;
