@@ -1,0 +1,8 @@
+<!-- Begin Microsoft Consent Management -->
+<!-- Copyright (c) Microsoft Corporation. All rights reserved -->
+<!-- Replace <Host-URL> with desired path -->
+<script src="<Host-URL>/msft-privacy/packages/8f548ea2-5fad-474f-aa15-cef9e4cd7b48/latest/core-config.js"></script>
+<script src="<Host-URL>/msft-privacy/packages/8f548ea2-5fad-474f-aa15-cef9e4cd7b48/js/consent.min.js"></script>
+<script src="<Host-URL>/msft-privacy/packages/8f548ea2-5fad-474f-aa15-cef9e4cd7b48/js/trackerBlocking.min.js"></script>
+<script>MSFTPrivacy.webConsent.init()</script>
+<!-- End Microsoft Consent Management -->
