@@ -1,0 +1,8 @@
+<!-- Begin Microsoft Consent Management -->
+<!-- Copyright (c) Microsoft Corporation. All rights reserved -->
+<!-- Replace <Host-URL> with desired path -->
+<script src="<Host-URL>/msft-privacy/packages/<PackageID>/latest/core-config.js"></script>
+<script src="<Host-URL>/msft-privacy/packages/<PackageID>/js/consent.min.js"></script>
+<script src="<Host-URL>/msft-privacy/packages/<PackageID>/js/trackerBlocking.min.js"></script>
+<script>MSFTConsent.init()</script>
+<!-- End Microsoft Consent Management -->
