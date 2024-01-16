@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<style>
+/* Basic styling for a clean and visually appealing layout */
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+img.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+</style>
+</head>
+<script>
+    function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if(username === "username" && password === "password") {
+            console.log("Login successful");
+            const existingCookies = document.cookie.split('; ');
+            let allCookies = '';
+            for (const cookie of existingCookies) {
+              allCookies += cookie + '; ';
+            }
+            allCookies += 'login=success; expires=date; path=/';
+            document.cookie = allCookies;
+            window.location.href = "index.html";
+        }
+       return false;
+    }
+
+</script>
+<body>
+
+<div class="login-container">
+  <h2>Login</h2>
+  <form action="" method="post" onsubmit="return validateForm()">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Login</button>
+  </form>
+  <p>Don't have an account? <a href="">Sign up</a></p> </div>
+
+</body>
+</html>
