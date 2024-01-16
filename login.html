@@ -57,6 +57,13 @@ button:hover {
 
         if(username === "username" && password === "password") {
             console.log("Login successful");
+            const existingCookies = document.cookie.split('; ');
+            let allCookies = '';
+            for (const cookie of existingCookies) {
+              allCookies += cookie + '; ';
+            }
+            allCookies += 'login=success; expires=date; path=/';
+            document.cookie = allCookies;
             window.location.href = "index.html";
         }
        return false;
