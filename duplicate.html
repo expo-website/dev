@@ -4,7 +4,7 @@
   <!-- Begin Microsoft Consent Management -->
   <!-- Copyright (c) Microsoft Corporation. All rights reserved -->
   <script>!function (c, e, a, n) { var r = 3 < arguments.length && void 0 !== n ? n : ".", i = !1, s = [], f = (window.MSFTPrivacy = window.MSFTPrivacy || {}, window.MSFTPrivacy.genericConsent = { onLoad: function (n) { return i ? n() : s.push(n) } }, 0), u = c.getElementsByTagName(e)[0].parentNode; (function n(t) { var o = c.createElement(e); o.src = "".concat(r).concat(/[\/]$/.test(r) ? "" : "/", "msft-privacy/").concat("string" == typeof myVar ? t : t()), u.insertBefore(o, u.firstChild), o.onload = function () { ++f < a.length ? n(a[f]) : (s.forEach(function (n) { return n() }), i = !0) } })(a[0]) }(document, "script", [function () { return "packages/5ee4ad72-ced7-4fa7-8ab8-cd11e6036048/latest/core-config.js?v=".concat(Math.floor(Date.now() / 6e4)) }, function () { return "packages/5ee4ad72-ced7-4fa7-8ab8-cd11e6036048/js/".concat(window.__MSFT_SDK.genericConsent.config.consentSDKVersion, "/consent.min.js") }], ".")</script>
-  <script>MSFTPrivacy.trackerConsent.onLoad(function () { return MSFTPrivacy.trackerConsent.init({ assetsPath: '.' }) })</script>
+  <script>MSFTPrivacy.genericConsent.onLoad(function () { return MSFTPrivacy.genericConsent.init({ assetsPath: '.' }) })</script>
   <!-- End Microsoft Consent Management -->
 
   <link href="css/index.css" rel="stylesheet">
