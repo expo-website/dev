@@ -9,7 +9,7 @@
     friendlyName: "Test-PunitPackage5",
     consentSDKVersion: "1.0.1",
     configurations: {
-      assetsPath: "dev",
+      assetsPath: "",
       headless: false,
       isGeoTrackingEnabled: true,
       geoTrackingURL: "https://consent.privacy.purview-service.azure-test.com",
