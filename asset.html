@@ -2,19 +2,26 @@
 
 <head>
 
-  <!-- Begin Microsoft Consent Management -->
-  <!-- Copyright (c) Microsoft Corporation. All rights reserved -->
-  <!-- Replace <Host-URL> with desired path -->
-
-
-
-
 
 <!-- Begin Microsoft Consent Management -->
 <!-- Copyright (c) Microsoft Corporation. All rights reserved -->
-<script>!function(c,e,a,n){var r=3<arguments.length&&void 0!==n?n:".",i=!1,s=[],f=(window.MSFTPrivacy=window.MSFTPrivacy||{},window.MSFTPrivacy.trackerConsent={onLoad:function(n){return i?n():s.push(n)}},0),u=c.getElementsByTagName(e)[0].parentNode;(function n(t){var o=c.createElement(e);o.src="".concat(r).concat(/[\/]$/.test(r)?"":"/","msft-privacy/").concat("string"==typeof myVar?t:t()),u.insertBefore(o,u.firstChild),o.onload=function(){++f<a.length?n(a[f]):(s.forEach(function(n){return n()}),i=!0)}})(a[0])}(document,"script",[function(){return"packages/929a726d-7bd3-451e-88f9-9899596be65b/latest/core-config.js?v=".concat(Math.floor(Date.now()/6e4))},function(){return"assets/81equ5/latest/asset-config.js?v=".concat(Math.floor(Date.now()/6e4))},function(){return"packages/929a726d-7bd3-451e-88f9-9899596be65b/js/".concat(window.__MSFT_SDK.trackerConsent.config.consentSDKVersion,"/consent.min.js")}],".")</script>
-<script>MSFTPrivacy.trackerConsent.onLoad(function(){return MSFTPrivacy.trackerConsent.init({assetsPath: "." })})</script>
-<!-- End Microsoft Consent Management -->
+<script type="text/javascript">
+  var host = "<Host-URL>";
+  var version = Math.floor(Date.now()/60000);
+  document.write(`
+  <script src="./msft-privacy/packages/2bd87148-43f8-477f-8ae8-e630f724853f/latest/core-config.js?v=${version}"><\/script> 
+  <script src="./msft-privacy/assets/tudjoe/latest/asset-config.js?v=${version}"><\/script>
+  `);
+  </script>
+  <script type="text/javascript">
+  var sdkVersion = window.__MSFT_SDK.trackerConsent.config.consentSDKVersion;
+  document.write(`
+  <script src="./msft-privacy/packages/2bd87148-43f8-477f-8ae8-e630f724853f/js/${sdkVersion}/consent.min.js"><\/script> 
+  <script src="./msft-privacy/packages/2bd87148-43f8-477f-8ae8-e630f724853f/js/${sdkVersion}/trackerBlocking.min.js"><\/script> 
+  <script type="text/javascript">MSFTPrivacy.trackerConsent.init({"assetsPath": "." })<\/script>
+  `);
+  </script>
+  <!-- End Microsoft Consent Management -->
 
 
 
